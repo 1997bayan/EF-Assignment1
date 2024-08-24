@@ -1,10 +1,13 @@
-﻿namespace EF_Assignment1
+﻿using EF_Assignment1.Context;
+
+namespace EF_Assignment1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ITIContext context = new ITIContext();
+
         }
     }
 }
